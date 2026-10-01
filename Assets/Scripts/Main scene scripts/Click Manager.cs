@@ -11,6 +11,9 @@ public class ClickManager : MonoBehaviour
 
     private Collider2D objectCollider;
 
+    [SerializeField]
+    private SpriteRenderer spriteRenderer;
+
     private Vector2 mousePosition;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -28,14 +31,24 @@ public class ClickManager : MonoBehaviour
     {
         if (ctx.performed)
         {
-            
+            mousePosition = Camera.main.ScreenToWorldPoint(Mouse.current.position.value);
+
+            if (objectCollider.OverlapPoint(mousePosition))
+            {
+                spriteRenderer.color = Color.yellow;
+                SceneChange();
+            }
+            else
+            {
+                Debug.LogWarning("Not an object to click");
+            }
         }
         
     }
 
     private void SceneChange()
     {
-        if (!string.IsNullOrEmpty(targetSceneName))
+        if (string.IsNullOrEmpty(targetSceneName) == false)
         {
             SceneManager.LoadScene(targetSceneName);
         }
