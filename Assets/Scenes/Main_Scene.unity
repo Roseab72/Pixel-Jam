@@ -130,6 +130,7 @@ GameObject:
   - component: {fileID: 49409463}
   - component: {fileID: 49409462}
   - component: {fileID: 49409464}
+  - component: {fileID: 49409465}
   m_Layer: 0
   m_Name: Padlock (main)
   m_TagString: Untagged
@@ -257,6 +258,19 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &49409465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 49409461}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4ef0a9c1721fa84f956b29c2b2c36e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ClickManager
+  targetSceneName: 
 --- !u!1 &200543249
 GameObject:
   m_ObjectHideFlags: 0
@@ -268,6 +282,7 @@ GameObject:
   - component: {fileID: 200543251}
   - component: {fileID: 200543250}
   - component: {fileID: 200543252}
+  - component: {fileID: 200543253}
   m_Layer: 0
   m_Name: Floor Panel (main)
   m_TagString: Untagged
@@ -395,6 +410,19 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &200543253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 200543249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4ef0a9c1721fa84f956b29c2b2c36e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ClickManager
+  targetSceneName: 
 --- !u!1 &616695411
 GameObject:
   m_ObjectHideFlags: 0
@@ -543,6 +571,7 @@ GameObject:
   - component: {fileID: 699461532}
   - component: {fileID: 699461531}
   - component: {fileID: 699461533}
+  - component: {fileID: 699461534}
   m_Layer: 0
   m_Name: Fridge (main)
   m_TagString: Untagged
@@ -670,6 +699,19 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &699461534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 699461530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4ef0a9c1721fa84f956b29c2b2c36e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ClickManager
+  targetSceneName: Fridge
 --- !u!1 &701425689
 GameObject:
   m_ObjectHideFlags: 0
@@ -681,6 +723,7 @@ GameObject:
   - component: {fileID: 701425691}
   - component: {fileID: 701425690}
   - component: {fileID: 701425692}
+  - component: {fileID: 701425693}
   m_Layer: 0
   m_Name: Table (main)
   m_TagString: Untagged
@@ -808,6 +851,19 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &701425693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 701425689}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4ef0a9c1721fa84f956b29c2b2c36e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ClickManager
+  targetSceneName: 
 --- !u!1 &965730604
 GameObject:
   m_ObjectHideFlags: 0
@@ -957,6 +1013,7 @@ GameObject:
   - component: {fileID: 1394905206}
   - component: {fileID: 1394905205}
   - component: {fileID: 1394905207}
+  - component: {fileID: 1394905208}
   m_Layer: 0
   m_Name: Sink (main)
   m_TagString: Untagged
@@ -1084,6 +1141,19 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1394905208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1394905204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4ef0a9c1721fa84f956b29c2b2c36e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ClickManager
+  targetSceneName: 
 --- !u!1 &1533974326
 GameObject:
   m_ObjectHideFlags: 0
@@ -1095,6 +1165,7 @@ GameObject:
   - component: {fileID: 1533974328}
   - component: {fileID: 1533974327}
   - component: {fileID: 1533974329}
+  - component: {fileID: 1533974330}
   m_Layer: 0
   m_Name: Door (main)
   m_TagString: Untagged
@@ -1222,6 +1293,19 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1533974330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1533974326}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4ef0a9c1721fa84f956b29c2b2c36e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ClickManager
+  targetSceneName: 
 --- !u!1 &1936720213
 GameObject:
   m_ObjectHideFlags: 0
@@ -1233,6 +1317,7 @@ GameObject:
   - component: {fileID: 1936720215}
   - component: {fileID: 1936720214}
   - component: {fileID: 1936720216}
+  - component: {fileID: 1936720217}
   m_Layer: 0
   m_Name: Bookshelf (main)
   m_TagString: Untagged
@@ -1360,6 +1445,19 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1936720217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1936720213}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4ef0a9c1721fa84f956b29c2b2c36e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ClickManager
+  targetSceneName: 
 --- !u!1 &1976505354
 GameObject:
   m_ObjectHideFlags: 0
@@ -1371,6 +1469,7 @@ GameObject:
   - component: {fileID: 1976505356}
   - component: {fileID: 1976505355}
   - component: {fileID: 1976505357}
+  - component: {fileID: 1976505358}
   m_Layer: 0
   m_Name: Flytrap (main)
   m_TagString: Untagged
@@ -1488,6 +1587,19 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.5
+--- !u!114 &1976505358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1976505354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4ef0a9c1721fa84f956b29c2b2c36e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ClickManager
+  targetSceneName: 
 --- !u!1 &2064963930
 GameObject:
   m_ObjectHideFlags: 0
@@ -1499,6 +1611,7 @@ GameObject:
   - component: {fileID: 2064963932}
   - component: {fileID: 2064963931}
   - component: {fileID: 2064963933}
+  - component: {fileID: 2064963934}
   m_Layer: 0
   m_Name: Piano (main)
   m_TagString: Untagged
@@ -1626,6 +1739,19 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &2064963934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2064963930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4ef0a9c1721fa84f956b29c2b2c36e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ClickManager
+  targetSceneName: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
