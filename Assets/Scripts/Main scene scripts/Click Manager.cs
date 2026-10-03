@@ -38,10 +38,10 @@ public class ClickManager : MonoBehaviour
                 spriteRenderer.color = Color.yellow;
                 SceneChange();
             }
-            else
-            {
-                Debug.LogWarning("Not an object to click");
-            }
+            //else
+            //{
+            //    Debug.LogWarning("Not an object to click");
+            //}
         }
         
     }

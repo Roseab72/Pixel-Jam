@@ -12,8 +12,11 @@ EditorBuildSettings:
     path: Assets/Scenes/Main_Scene.unity
     guid: 9fb2adc1ed26a144eb6766cd74470215
   - enabled: 1
-    path: Assets/Scenes/Fridge.unity
+    path: Assets/Scenes/Fridge Scenes/Fridge.unity
     guid: 1db0f5f879cef3b478c451031890bbe3
+  - enabled: 1
+    path: Assets/Scenes/Fridge Scenes/Fridge Panel.unity
+    guid: a9690b6333013ee468640d25be69cb31
   - enabled: 1
     path: Assets/Scenes/Bookshelf.unity
     guid: b7d029c0a11498c4098b9d2835a8dc3e
