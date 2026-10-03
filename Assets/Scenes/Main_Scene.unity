@@ -1152,6 +1152,8 @@ MonoBehaviour:
     value: 0
   - key: Password Entered
     value: 0
+  - key: Special Page Found
+    value: 0
 --- !u!4 &1084227198
 Transform:
   m_ObjectHideFlags: 0
