@@ -14,11 +14,13 @@ public class ClickManager : MonoBehaviour
     [SerializeField]
     private SpriteRenderer spriteRenderer;
 
+    [SerializeField]
     private Vector2 mousePosition;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         objectCollider = GetComponent<Collider2D>();
+        //mousePosition = Vector2.zero;
     }
 
     // Update is called once per frame
@@ -27,7 +29,7 @@ public class ClickManager : MonoBehaviour
         
     }
 
-    public void OnClick(InputAction.CallbackContext ctx)
+    public void OnClick(InputAction.CallbackContext ctx)        //CURRENT GLITCH WHERE TWO LAYERED ZOOM IN SCENES HAVE THE BACK BUTTONS REPEATEDLY TRIGGER AND GO ALL THE WAY BACK TO THE MAIN SCENE
     {
         if (ctx.performed)
         {
@@ -35,6 +37,7 @@ public class ClickManager : MonoBehaviour
 
             if (objectCollider.OverlapPoint(mousePosition))
             {
+                //mousePosition = Vector2.zero;
                 spriteRenderer.color = Color.yellow;
                 SceneChange();
             }

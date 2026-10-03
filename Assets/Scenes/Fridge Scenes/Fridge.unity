@@ -153,6 +153,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ClickManager
   targetSceneName: Fridge Panel
   spriteRenderer: {fileID: 15415230}
+  mousePosition: {x: 0, y: 0}
 --- !u!212 &15415230
 SpriteRenderer:
   serializedVersion: 2

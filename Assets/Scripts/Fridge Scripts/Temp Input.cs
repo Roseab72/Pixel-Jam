@@ -30,7 +30,17 @@ public class TempInput : MonoBehaviour
 
     private void CheckTemp(string playerInput)
     {
-        float degreeValue = float.Parse(playerInput.Trim());
+        float degreeValue;
+
+        if (playerInput != null)
+        {
+            degreeValue = float.Parse(playerInput.Trim());
+        }
+        else
+        {
+            degreeValue=0.0f;
+        }
+
 
         if (degreeValue == 35.7f)
         {
