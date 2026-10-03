@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System;
 
 
-public class PlayerProgressData : MonoBehaviour
+public class PlayerProgressData : MonoBehaviour, ISerializationCallbackReceiver
 {
     //Make it so that this script scores all data related to the player's puzzle progress,
     //and that it remains through scene changes
@@ -64,6 +64,43 @@ public class PlayerProgressData : MonoBehaviour
         else
         {
             Debug.LogWarning("Dictonary Value does not exist");
+        }
+    }
+
+    /// <summary>
+    /// Saves dictionary data into the inspector list before serializing
+    /// </summary>
+    public void OnBeforeSerialize()
+    {
+        if (!Application.isPlaying)
+        {
+            return;
+        }
+
+        dataList.Clear();
+        
+        foreach (var kvp in progressDataDict)
+        {
+            dataList.Add(new ProgressDataTypes { key = kvp.Key, value = kvp.Value });
+        }
+    }
+
+    /// <summary>
+    /// Loads Inspector list data back into the Dictionary immediatly after a change
+    /// </summary>
+    public void OnAfterDeserialize()
+    {
+        progressDataDict.Clear();
+
+        for (int i = 0; i <  dataList.Count; i++)
+        {
+            string key = dataList[i].key;
+            bool value = dataList[i].value;
+
+            if (key != null && !progressDataDict.ContainsKey(key))
+            {
+                progressDataDict.Add(key, value);
+            }
         }
     }
 }
