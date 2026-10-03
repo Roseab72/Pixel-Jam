@@ -272,6 +272,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ClickManager
   targetSceneName: Padlock
   spriteRenderer: {fileID: 49409462}
+  mousePosition: {x: 0, y: 0}
 --- !u!1 &200543249
 GameObject:
   m_ObjectHideFlags: 0
@@ -425,6 +426,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ClickManager
   targetSceneName: Floor Panel
   spriteRenderer: {fileID: 200543250}
+  mousePosition: {x: 0, y: 0}
 --- !u!1 &485247206
 GameObject:
   m_ObjectHideFlags: 0
@@ -562,6 +564,18 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 200543253}
+        m_TargetAssemblyTypeName: ClickManager, Assembly-CSharp
+        m_MethodName: OnClick
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1394905208}
         m_TargetAssemblyTypeName: ClickManager, Assembly-CSharp
         m_MethodName: OnClick
         m_Mode: 0
@@ -903,6 +917,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ClickManager
   targetSceneName: Fridge
   spriteRenderer: {fileID: 662953165}
+  mousePosition: {x: 0, y: 0}
 --- !u!61 &662953168
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1102,6 +1117,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ClickManager
   targetSceneName: Table
   spriteRenderer: {fileID: 701425690}
+  mousePosition: {x: 0, y: 0}
 --- !u!1 &1084227196
 GameObject:
   m_ObjectHideFlags: 0
@@ -1133,6 +1149,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerProgressData
   dataList:
   - key: Fridge Unfrozen
+    value: 0
+  - key: Password Entered
     value: 0
 --- !u!4 &1084227198
 Transform:
@@ -1302,6 +1320,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ClickManager
   targetSceneName: Computer
   spriteRenderer: {fileID: 1394905205}
+  mousePosition: {x: 0, y: 0}
 --- !u!1 &1533974326
 GameObject:
   m_ObjectHideFlags: 0
@@ -1455,6 +1474,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ClickManager
   targetSceneName: Door
   spriteRenderer: {fileID: 1533974327}
+  mousePosition: {x: 0, y: 0}
 --- !u!1 &1936720213
 GameObject:
   m_ObjectHideFlags: 0
@@ -1608,6 +1628,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ClickManager
   targetSceneName: Bookshelf
   spriteRenderer: {fileID: 1936720214}
+  mousePosition: {x: 0, y: 0}
 --- !u!1 &1976505354
 GameObject:
   m_ObjectHideFlags: 0
@@ -1751,6 +1772,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ClickManager
   targetSceneName: Fly Trap
   spriteRenderer: {fileID: 1976505355}
+  mousePosition: {x: 0, y: 0}
 --- !u!1 &2064963930
 GameObject:
   m_ObjectHideFlags: 0
@@ -1904,6 +1926,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ClickManager
   targetSceneName: Piano
   spriteRenderer: {fileID: 2064963931}
+  mousePosition: {x: 0, y: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
