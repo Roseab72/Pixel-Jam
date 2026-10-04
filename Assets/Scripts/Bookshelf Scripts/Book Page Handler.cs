@@ -23,29 +23,41 @@ public class BookPageHandler : MonoBehaviour
 
     private int pageNum;
 
+    private List<GameObject> activePrefabs = new List<GameObject>();
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        for (int i = 0; i < pagePrefabs.Count; i++)
+        {
+            activePrefabs.Add(Instantiate(pagePrefabs[i]));
+            activePrefabs[i].SetActive(false);
+
+        }
+
+        activePrefabs.Add(Instantiate(specialPage));
+        activePrefabs[3].SetActive(false);
+
         for (int i = 0; i < 251; i++)
         {
             if (i != 174)
             {
-                GameObject page = pagePrefabs[Random.Range(0, pagePrefabs.Count)];
 
-                book.Add(page);
+                book.Add(activePrefabs[Random.Range(0, 3)]);
             }
             else
             {
-                book.Add(specialPage);
+                book.Add(activePrefabs[3]);
             }
-            
+
         }
 
         currentPage = book[0];
 
         pageNum = 1;
 
-        Instantiate(currentPage, transform.position, Quaternion.identity);
+        currentPage.SetActive(true);
+        
     }
 
     // Update is called once per frame
@@ -63,13 +75,13 @@ public class BookPageHandler : MonoBehaviour
 
     private void PageChange(string playerInput)
     {
+        currentPage.SetActive(false);
+
         pageNum = int.Parse(playerInput.Trim());
 
-        //Destroy(currentPage);               //How to remove pages without destroying.
+        book[pageNum - 1].SetActive(true);
 
         currentPage = book[pageNum - 1];
-
-        Instantiate(currentPage, transform.position, Quaternion.identity);
 
         if (currentPage == specialPage)
         {
