@@ -29,10 +29,11 @@ public class ClickManager : MonoBehaviour
         
     }
 
-    public void OnClick(InputAction.CallbackContext ctx)        //CURRENT GLITCH WHERE TWO LAYERED ZOOM IN SCENES HAVE THE BACK BUTTONS REPEATEDLY TRIGGER AND GO ALL THE WAY BACK TO THE MAIN SCENE
+    public void OnClick(InputAction.CallbackContext ctx)        
     {
-        if (ctx.performed)
+        if (ctx.canceled)
         {
+            Debug.Log("pressed");
             mousePosition = Camera.main.ScreenToWorldPoint(Mouse.current.position.value);
 
             if (objectCollider.OverlapPoint(mousePosition))
@@ -41,10 +42,7 @@ public class ClickManager : MonoBehaviour
                 spriteRenderer.color = Color.yellow;
                 SceneChange();
             }
-            //else
-            //{
-            //    Debug.LogWarning("Not an object to click");
-            //}
+
         }
         
     }
