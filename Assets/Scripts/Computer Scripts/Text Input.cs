@@ -9,6 +9,12 @@ public class TextInput : MonoBehaviour
     [SerializeField]
     private TMP_Text textPrompt;
 
+    [SerializeField]
+    private GameObject conversion;
+
+    [SerializeField]
+    private GameObject parent;
+
     private string enteredPassword;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -22,7 +28,8 @@ public class TextInput : MonoBehaviour
     {
         if (PlayerProgressData.Instance.progressDataDict["Password Entered"] == true)
         {
-            textPrompt.text = "Password Accepted";
+            conversion.SetActive(true);
+            parent.SetActive(false);
         }
     }
 
