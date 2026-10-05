@@ -3,7 +3,10 @@ using UnityEngine;
 public class Temptestscript : MonoBehaviour
 {
     [SerializeField]
-    private SpriteRenderer spriteRenderer;
+    private GameObject unfrozenObjects;
+
+    [SerializeField]
+    private GameObject openFridge;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -13,9 +16,10 @@ public class Temptestscript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (PlayerProgressData.Instance.progressDataDict["Fridge Unfrozen"] == true)
+        if (PlayerProgressData.Instance.progressDataDict["Fridge Unfrozen"] == true && openFridge.activeSelf == false)
         {
-            spriteRenderer.color = Color.yellow;
+            gameObject.SetActive(false);
+            unfrozenObjects.SetActive(true);
         }
     }
 }
