@@ -129,8 +129,8 @@ GameObject:
   m_Component:
   - component: {fileID: 49409463}
   - component: {fileID: 49409462}
-  - component: {fileID: 49409464}
   - component: {fileID: 49409465}
+  - component: {fileID: 49409466}
   m_Layer: 0
   m_Name: Padlock (main)
   m_TagString: Untagged
@@ -206,13 +206,28 @@ Transform:
   m_GameObject: {fileID: 49409461}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.22, y: -1.9, z: 0}
-  m_LocalScale: {x: 5.5, y: 5.5, z: 5.5}
-  m_ConstrainProportionsScale: 1
+  m_LocalPosition: {x: -1.078125, y: -0.296875, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &49409464
+--- !u!114 &49409465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 49409461}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4ef0a9c1721fa84f956b29c2b2c36e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ClickManager
+  targetSceneName: Padlock
+  spriteRenderer: {fileID: 49409462}
+  mousePosition: {x: 0, y: 0}
+--- !u!61 &49409466
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -242,37 +257,22 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.3671875, y: -0.265625}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.47, y: 0.34}
+    pivot: {x: 0, y: 1}
+    oldSize: {x: 0.734375, y: 0.53125}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.734375, y: 0.53125}
   m_EdgeRadius: 0
---- !u!114 &49409465
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 49409461}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4ef0a9c1721fa84f956b29c2b2c36e4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ClickManager
-  targetSceneName: Padlock
-  spriteRenderer: {fileID: 49409462}
-  mousePosition: {x: 0, y: 0}
 --- !u!1 &200543249
 GameObject:
   m_ObjectHideFlags: 0
@@ -283,8 +283,8 @@ GameObject:
   m_Component:
   - component: {fileID: 200543251}
   - component: {fileID: 200543250}
-  - component: {fileID: 200543252}
   - component: {fileID: 200543253}
+  - component: {fileID: 200543254}
   m_Layer: 0
   m_Name: Floor Panel (main)
   m_TagString: Untagged
@@ -360,13 +360,28 @@ Transform:
   m_GameObject: {fileID: 200543249}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.233, y: -4.3725557, z: 0}
-  m_LocalScale: {x: 5.5, y: 5.5, z: 5.5}
+  m_LocalPosition: {x: -1.625, y: -1.15625, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &200543252
+--- !u!114 &200543253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 200543249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4ef0a9c1721fa84f956b29c2b2c36e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ClickManager
+  targetSceneName: Floor Panel
+  spriteRenderer: {fileID: 200543250}
+  mousePosition: {x: 0, y: 0}
+--- !u!61 &200543254
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -396,37 +411,22 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.000000029802322, y: 0.000000026077032}
+  m_Offset: {x: 0.4140625, y: -0.0859375}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.53, y: 0.11}
+    pivot: {x: 0, y: 1}
+    oldSize: {x: 0.828125, y: 0.171875}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.5379905, y: 0.124613576}
+  m_Size: {x: 0.828125, y: 0.171875}
   m_EdgeRadius: 0
---- !u!114 &200543253
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 200543249}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4ef0a9c1721fa84f956b29c2b2c36e4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ClickManager
-  targetSceneName: Floor Panel
-  spriteRenderer: {fileID: 200543250}
-  mousePosition: {x: 0, y: 0}
 --- !u!1 &485247206
 GameObject:
   m_ObjectHideFlags: 0
@@ -685,6 +685,7 @@ GameObject:
   - component: {fileID: 616695413}
   - component: {fileID: 616695412}
   - component: {fileID: 616695415}
+  - component: {fileID: 616695416}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -735,7 +736,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 1.40625
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -810,6 +811,30 @@ MonoBehaviour:
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
   m_Version: 2
+--- !u!114 &616695416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 616695411}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c88f5cead0c0b2a4eb05b5900433f8d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.2D.Runtime::UnityEngine.Rendering.Universal.PixelPerfectCamera
+  m_ComponentVersion: 1
+  m_AssetsPPU: 64
+  m_RefResolutionX: 320
+  m_RefResolutionY: 180
+  m_CropFrame: 0
+  m_GridSnapping: 0
+  m_FilterMode: 0
+  m_UpscaleRT: 0
+  m_PixelSnapping: 0
+  m_CropFrameX: 0
+  m_CropFrameY: 0
+  m_StretchFill: 0
 --- !u!1 &662953164
 GameObject:
   m_ObjectHideFlags: 0
@@ -820,8 +845,8 @@ GameObject:
   m_Component:
   - component: {fileID: 662953166}
   - component: {fileID: 662953165}
-  - component: {fileID: 662953168}
   - component: {fileID: 662953167}
+  - component: {fileID: 662953168}
   m_Layer: 0
   m_Name: Fridge (main)
   m_TagString: Untagged
@@ -897,9 +922,9 @@ Transform:
   m_GameObject: {fileID: 662953164}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.04, y: 2.25, z: 0}
-  m_LocalScale: {x: 5.5, y: 5.5, z: 5.5}
-  m_ConstrainProportionsScale: 1
+  m_LocalPosition: {x: -0.328125, y: 0.890625, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -948,21 +973,21 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.25, y: -0.375}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.32, y: 0.48}
+    pivot: {x: 0, y: 1}
+    oldSize: {x: 0.5, y: 0.75}
     newSize: {x: 0.32, y: 0.48}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.32, y: 0.48}
+  m_Size: {x: 0.5, y: 0.75}
   m_EdgeRadius: 0
 --- !u!1 &701425689
 GameObject:
@@ -974,8 +999,8 @@ GameObject:
   m_Component:
   - component: {fileID: 701425691}
   - component: {fileID: 701425690}
-  - component: {fileID: 701425692}
   - component: {fileID: 701425693}
+  - component: {fileID: 701425694}
   m_Layer: 0
   m_Name: Table (main)
   m_TagString: Untagged
@@ -1051,13 +1076,28 @@ Transform:
   m_GameObject: {fileID: 701425689}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.4, y: -2.68, z: 0}
-  m_LocalScale: {x: 5.5, y: 5.5, z: 5.5}
+  m_LocalPosition: {x: 0.28125, y: -0.453125, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &701425692
+--- !u!114 &701425693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 701425689}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4ef0a9c1721fa84f956b29c2b2c36e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ClickManager
+  targetSceneName: Table
+  spriteRenderer: {fileID: 701425690}
+  mousePosition: {x: 0, y: 0}
+--- !u!61 &701425694
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1087,37 +1127,22 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.00039595366, y: 0.04660625}
+  m_Offset: {x: 0.3515625, y: -0.3046875}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.45, y: 0.39}
+    pivot: {x: 0, y: 1}
+    oldSize: {x: 0.703125, y: 0.609375}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.4658335, y: 0.3110386}
+  m_Size: {x: 0.703125, y: 0.609375}
   m_EdgeRadius: 0
---- !u!114 &701425693
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 701425689}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4ef0a9c1721fa84f956b29c2b2c36e4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ClickManager
-  targetSceneName: Table
-  spriteRenderer: {fileID: 701425690}
-  mousePosition: {x: 0, y: 0}
 --- !u!1 &1084227196
 GameObject:
   m_ObjectHideFlags: 0
@@ -1179,8 +1204,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1394905206}
   - component: {fileID: 1394905205}
-  - component: {fileID: 1394905207}
   - component: {fileID: 1394905208}
+  - component: {fileID: 1394905209}
   m_Layer: 0
   m_Name: Computer (main)
   m_TagString: Untagged
@@ -1256,13 +1281,28 @@ Transform:
   m_GameObject: {fileID: 1394905204}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.42, y: -2.46, z: 0}
-  m_LocalScale: {x: 5.55, y: 5.5, z: 5.5}
-  m_ConstrainProportionsScale: 1
+  m_LocalPosition: {x: 1.765625, y: -0.20312503, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &1394905207
+--- !u!114 &1394905208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1394905204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4ef0a9c1721fa84f956b29c2b2c36e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ClickManager
+  targetSceneName: Computer
+  spriteRenderer: {fileID: 1394905205}
+  mousePosition: {x: 0, y: 0}
+--- !u!61 &1394905209
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1292,37 +1332,22 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.0011665225, y: -0.00588578}
+  m_Offset: {x: 0.3515625, y: -0.484375}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.45, y: 0.62}
+    pivot: {x: 0, y: 1}
+    oldSize: {x: 0.703125, y: 0.96875}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.4797246, y: 0.6397948}
+  m_Size: {x: 0.703125, y: 0.96875}
   m_EdgeRadius: 0
---- !u!114 &1394905208
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1394905204}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4ef0a9c1721fa84f956b29c2b2c36e4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ClickManager
-  targetSceneName: Computer
-  spriteRenderer: {fileID: 1394905205}
-  mousePosition: {x: 0, y: 0}
 --- !u!1 &1533974326
 GameObject:
   m_ObjectHideFlags: 0
@@ -1333,8 +1358,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1533974328}
   - component: {fileID: 1533974327}
-  - component: {fileID: 1533974329}
   - component: {fileID: 1533974330}
+  - component: {fileID: 1533974331}
   m_Layer: 0
   m_Name: Door (main)
   m_TagString: Untagged
@@ -1410,13 +1435,28 @@ Transform:
   m_GameObject: {fileID: 1533974326}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.98, y: 3.026, z: 0}
-  m_LocalScale: {x: 5.5, y: 5.5, z: 5.5}
+  m_LocalPosition: {x: 0.96875, y: 1.328125, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &1533974329
+--- !u!114 &1533974330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1533974326}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4ef0a9c1721fa84f956b29c2b2c36e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ClickManager
+  targetSceneName: Door
+  spriteRenderer: {fileID: 1533974327}
+  mousePosition: {x: 0, y: 0}
+--- !u!61 &1533974331
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1446,37 +1486,22 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.0039927065, y: -0.0019963384}
+  m_Offset: {x: 0.2734375, y: -0.46875}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.35, y: 0.6}
+    pivot: {x: 0, y: 1}
+    oldSize: {x: 0.546875, y: 0.9375}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.36917132, y: 0.6127192}
+  m_Size: {x: 0.546875, y: 0.9375}
   m_EdgeRadius: 0
---- !u!114 &1533974330
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1533974326}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4ef0a9c1721fa84f956b29c2b2c36e4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ClickManager
-  targetSceneName: Door
-  spriteRenderer: {fileID: 1533974327}
-  mousePosition: {x: 0, y: 0}
 --- !u!1 &1907742370
 GameObject:
   m_ObjectHideFlags: 0
@@ -1562,9 +1587,9 @@ Transform:
   m_GameObject: {fileID: 1907742370}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 5.5, y: 5.5, z: 5.5}
-  m_ConstrainProportionsScale: 1
+  m_LocalPosition: {x: -2.5, y: 1.40625, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1578,8 +1603,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1936720215}
   - component: {fileID: 1936720214}
-  - component: {fileID: 1936720216}
   - component: {fileID: 1936720217}
+  - component: {fileID: 1936720218}
   m_Layer: 0
   m_Name: Bookshelf (main)
   m_TagString: Untagged
@@ -1655,13 +1680,28 @@ Transform:
   m_GameObject: {fileID: 1936720213}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.48, y: 2.71, z: 0}
-  m_LocalScale: {x: 5.5, y: 5.5, z: 5.5}
-  m_ConstrainProportionsScale: 1
+  m_LocalPosition: {x: -2.25, y: 1.25, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &1936720216
+--- !u!114 &1936720217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1936720213}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4ef0a9c1721fa84f956b29c2b2c36e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ClickManager
+  targetSceneName: Bookshelf
+  spriteRenderer: {fileID: 1936720214}
+  mousePosition: {x: 0, y: 0}
+--- !u!61 &1936720218
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1691,37 +1731,22 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.0041517615, y: -0.0041517317}
+  m_Offset: {x: 0.390625, y: -0.59375}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.5, y: 0.76}
+    pivot: {x: 0, y: 1}
+    oldSize: {x: 0.78125, y: 1.1875}
     newSize: {x: 0.5, y: 0.76}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.51009285, y: 0.7675018}
+  m_Size: {x: 0.78125, y: 1.1875}
   m_EdgeRadius: 0
---- !u!114 &1936720217
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1936720213}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4ef0a9c1721fa84f956b29c2b2c36e4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ClickManager
-  targetSceneName: Bookshelf
-  spriteRenderer: {fileID: 1936720214}
-  mousePosition: {x: 0, y: 0}
 --- !u!1 &1976505354
 GameObject:
   m_ObjectHideFlags: 0
@@ -1732,8 +1757,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1976505356}
   - component: {fileID: 1976505355}
-  - component: {fileID: 1976505357}
   - component: {fileID: 1976505358}
+  - component: {fileID: 1976505359}
   m_Layer: 0
   m_Name: Flytrap (main)
   m_TagString: Untagged
@@ -1809,14 +1834,29 @@ Transform:
   m_GameObject: {fileID: 1976505354}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.05, y: 1.09, z: 0}
-  m_LocalScale: {x: 5.5, y: 5.5, z: 5.5}
-  m_ConstrainProportionsScale: 1
+  m_LocalPosition: {x: 1.953125, y: 0.6875, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!58 &1976505357
-CircleCollider2D:
+--- !u!114 &1976505358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1976505354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4ef0a9c1721fa84f956b29c2b2c36e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ClickManager
+  targetSceneName: Fly Trap
+  spriteRenderer: {fileID: 1976505355}
+  mousePosition: {x: 0, y: 0}
+--- !u!61 &1976505359
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1845,27 +1885,22 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_Radius: 0.5
---- !u!114 &1976505358
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1976505354}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4ef0a9c1721fa84f956b29c2b2c36e4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ClickManager
-  targetSceneName: Fly Trap
-  spriteRenderer: {fileID: 1976505355}
-  mousePosition: {x: 0, y: 0}
+  m_Offset: {x: 0.2265625, y: -0.390625}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 1}
+    oldSize: {x: 0.453125, y: 0.78125}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.453125, y: 0.78125}
+  m_EdgeRadius: 0
 --- !u!1 &2064963930
 GameObject:
   m_ObjectHideFlags: 0
@@ -1876,8 +1911,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2064963932}
   - component: {fileID: 2064963931}
-  - component: {fileID: 2064963933}
   - component: {fileID: 2064963934}
+  - component: {fileID: 2064963935}
   m_Layer: 0
   m_Name: Piano (main)
   m_TagString: Untagged
@@ -1953,13 +1988,28 @@ Transform:
   m_GameObject: {fileID: 2064963930}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.375, y: -0.9, z: 0}
-  m_LocalScale: {x: 5.5, y: 5.5, z: 5.5}
+  m_LocalPosition: {x: -2.421875, y: -0.25, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &2064963933
+--- !u!114 &2064963934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2064963930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4ef0a9c1721fa84f956b29c2b2c36e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ClickManager
+  targetSceneName: Piano
+  spriteRenderer: {fileID: 2064963931}
+  mousePosition: {x: 0, y: 0}
+--- !u!61 &2064963935
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1989,37 +2039,22 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.40625, y: -0.3984375}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.52, y: 0.51}
+    pivot: {x: 0, y: 1}
+    oldSize: {x: 0.8125, y: 0.796875}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.8125, y: 0.796875}
   m_EdgeRadius: 0
---- !u!114 &2064963934
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2064963930}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4ef0a9c1721fa84f956b29c2b2c36e4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ClickManager
-  targetSceneName: Piano
-  spriteRenderer: {fileID: 2064963931}
-  mousePosition: {x: 0, y: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
