@@ -268,8 +268,8 @@ Transform:
   m_GameObject: {fileID: 15415228}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.22, y: 0.9397, z: 0}
-  m_LocalScale: {x: 0.65858656, y: 0.4595, z: 1}
+  m_LocalPosition: {x: 0.07156253, y: 0.08813751, z: 0}
+  m_LocalScale: {x: 0.04921616, y: 0.037628625, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -299,6 +299,7 @@ GameObject:
   - component: {fileID: 1042032670}
   - component: {fileID: 1042032669}
   - component: {fileID: 1042032672}
+  - component: {fileID: 1042032673}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -349,7 +350,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 0.703125
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -424,6 +425,30 @@ MonoBehaviour:
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
   m_Version: 2
+--- !u!114 &1042032673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1042032668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c88f5cead0c0b2a4eb05b5900433f8d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.2D.Runtime::UnityEngine.Rendering.Universal.PixelPerfectCamera
+  m_ComponentVersion: 1
+  m_AssetsPPU: 64
+  m_RefResolutionX: 160
+  m_RefResolutionY: 90
+  m_CropFrame: 0
+  m_GridSnapping: 0
+  m_FilterMode: 0
+  m_UpscaleRT: 0
+  m_PixelSnapping: 0
+  m_CropFrameX: 0
+  m_CropFrameY: 0
+  m_StretchFill: 0
 --- !u!114 &1321911814 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3161145132377535039, guid: 855eaaee34cd13b40a75a3652b63635f, type: 3}
@@ -520,8 +545,8 @@ Transform:
   m_GameObject: {fileID: 1873708696}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 11.1111, y: 11.1111, z: 11.111111}
+  m_LocalPosition: {x: -1.25, y: 0.703125, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -578,17 +603,17 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.25, y: -0.375}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.32, y: 0.48}
+    pivot: {x: 0, y: 1}
+    oldSize: {x: 0.5, y: 0.75}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.32, y: 0.48}
+  m_Size: {x: 0.5, y: 0.75}
   m_EdgeRadius: 0
 --- !u!212 &1989181225
 SpriteRenderer:
@@ -658,8 +683,8 @@ Transform:
   m_GameObject: {fileID: 1989181223}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 16.382166, y: 16.382166, z: 16.382166}
+  m_LocalPosition: {x: -0.296875, y: 0.375, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -766,12 +791,24 @@ PrefabInstance:
       value: Back Button
       objectReference: {fileID: 0}
     - target: {fileID: 3742767022947032747, guid: 855eaaee34cd13b40a75a3652b63635f, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.2969
+      objectReference: {fileID: 0}
+    - target: {fileID: 3742767022947032747, guid: 855eaaee34cd13b40a75a3652b63635f, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.3125
+      objectReference: {fileID: 0}
+    - target: {fileID: 3742767022947032747, guid: 855eaaee34cd13b40a75a3652b63635f, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3742767022947032747, guid: 855eaaee34cd13b40a75a3652b63635f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.5
+      value: -0.9127591
       objectReference: {fileID: 0}
     - target: {fileID: 3742767022947032747, guid: 855eaaee34cd13b40a75a3652b63635f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4
+      value: 0.46967232
       objectReference: {fileID: 0}
     - target: {fileID: 3742767022947032747, guid: 855eaaee34cd13b40a75a3652b63635f, type: 3}
       propertyPath: m_LocalPosition.z
