@@ -22,7 +22,7 @@ public class FliesCollected : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (PlayerProgressData.Instance.progressDataDict["Flies Collected"] == true && gameObject != null)
+        if (gameObject != null && PlayerProgressData.Instance.progressDataDict["Flies Collected"] == true)
         {
             Destroy(gameObject);
         }
