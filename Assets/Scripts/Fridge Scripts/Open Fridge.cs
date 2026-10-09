@@ -3,12 +3,8 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 
-
-public class ClickManager : MonoBehaviour
+public class OpenFridge : MonoBehaviour
 {
-    [SerializeField]
-    private string targetSceneName;
-
     private Collider2D objectCollider;
 
     [SerializeField]
@@ -16,11 +12,16 @@ public class ClickManager : MonoBehaviour
 
     [SerializeField]
     private Vector2 mousePosition;
+
+    [SerializeField]
+    private GameObject parent;
+
+    [SerializeField]
+    private GameObject openFridge;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         objectCollider = GetComponent<Collider2D>();
-        //mousePosition = Vector2.zero;
     }
 
     // Update is called once per frame
@@ -29,32 +30,26 @@ public class ClickManager : MonoBehaviour
         
     }
 
-    public void OnClick(InputAction.CallbackContext ctx)        
+    public void OnClick(InputAction.CallbackContext ctx)
     {
         if (ctx.canceled)
         {
-            Debug.Log("pressed");
+            //Debug.Log("pressed");
             mousePosition = Camera.main.ScreenToWorldPoint(Mouse.current.position.value);
 
             if (objectCollider != null && objectCollider.OverlapPoint(mousePosition))
             {
                 spriteRenderer.color = Color.yellow;
-                SceneChange();
+                ChangeSprite();
             }
 
         }
-        
+
     }
 
-    private void SceneChange()
+    private void ChangeSprite()
     {
-        if (string.IsNullOrEmpty(targetSceneName) == false)
-        {
-            SceneManager.LoadScene(targetSceneName);
-        }
-        else
-        {
-            Debug.LogWarning("Target scene name does not exist");
-        }
+        openFridge.SetActive(true);
+        parent.SetActive(false);
     }
 }

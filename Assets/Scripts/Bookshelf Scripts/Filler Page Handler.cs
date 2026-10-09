@@ -2,11 +2,8 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
-public class BookPageHandler : MonoBehaviour
+public class FillerPageHandler : MonoBehaviour
 {
-    [SerializeField]
-    private GameObject specialPage;
-
     [SerializeField]
     private List<GameObject> pagePrefabs = new List<GameObject>();
 
@@ -35,21 +32,9 @@ public class BookPageHandler : MonoBehaviour
 
         }
 
-        activePrefabs.Add(Instantiate(specialPage));
-        activePrefabs[3].SetActive(false);
-
         for (int i = 0; i < 251; i++)
         {
-            if (i != 174)
-            {
-
-                book.Add(activePrefabs[Random.Range(0, 3)]);
-            }
-            else
-            {
-                book.Add(activePrefabs[3]);
-            }
-
+            book.Add(activePrefabs[Random.Range(0, 3)]);
         }
 
         currentPage = book[0];
@@ -57,7 +42,7 @@ public class BookPageHandler : MonoBehaviour
         pageNum = 1;
 
         currentPage.SetActive(true);
-        
+
     }
 
     // Update is called once per frame
@@ -79,7 +64,7 @@ public class BookPageHandler : MonoBehaviour
         currentPage.SetActive(false);
 
         pageNum = int.Parse(playerInput.Trim());
-        
+
         if (pageNum > 251)
         {
             pageNum = 251;
@@ -92,10 +77,5 @@ public class BookPageHandler : MonoBehaviour
         book[pageNum - 1].SetActive(true);
 
         currentPage = book[pageNum - 1];
-
-        if (currentPage == activePrefabs[3])
-        {
-            PlayerProgressData.Instance.UpdateProgress("Special Page Found", true);
-        }
     }
 }
