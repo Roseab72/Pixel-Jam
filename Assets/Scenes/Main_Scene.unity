@@ -1156,6 +1156,10 @@ MonoBehaviour:
     value: 0
   - key: Flies Collected
     value: 0
+  - key: Piano Code Success
+    value: 0
+  - key: Crowbar Collected
+    value: 0
 --- !u!4 &1084227198
 Transform:
   m_ObjectHideFlags: 0
