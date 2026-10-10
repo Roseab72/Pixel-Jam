@@ -20,7 +20,6 @@ public class ClickManager : MonoBehaviour
     void Start()
     {
         objectCollider = GetComponent<Collider2D>();
-        //mousePosition = Vector2.zero;
     }
 
     // Update is called once per frame
