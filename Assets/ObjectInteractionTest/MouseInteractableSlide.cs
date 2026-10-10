@@ -15,6 +15,7 @@ public class MouseInteractableSlide : MouseInteractable
         // 1/64. Currently hardcoded. Not sure how to make a global setting for this in Unity.
         float unitsPerPixel = 0.015625f;
         distance = distancePixels * unitsPerPixel;
+        direction.Normalize();
     }
 
     protected override float UpdateAnimation(Vector2 mouseStartPosition, Vector2 currentMousePosition)
@@ -36,7 +37,7 @@ public class MouseInteractableSlide : MouseInteractable
     {
         // Change color to differentiate selection
         Gizmos.color = Color.magenta;
-
+        
         // Draw a wireframe box around the object
         // Gizmos.DrawWireCube(transform.position, boxSize);
         Gizmos.DrawRay(transform.position, direction * distance * 10);
