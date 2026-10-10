@@ -1,0 +1,1115 @@
+fileFormatVersion: 2
+guid: 8807d310aa26c47d0912d75366b3da8a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8872695380465743452
+    second: FlytrapAnimation_0
+  - first:
+      213: 5365724757788484657
+    second: FlytrapAnimation_1
+  - first:
+      213: 7027639661361759579
+    second: FlytrapAnimation_2
+  - first:
+      213: 7797204434958516087
+    second: FlytrapAnimation_3
+  - first:
+      213: 3982575900982713396
+    second: FlytrapAnimation_4
+  - first:
+      213: -3759236162637260329
+    second: FlytrapAnimation_5
+  - first:
+      213: -92088118629820550
+    second: FlytrapAnimation_6
+  - first:
+      213: 9160596149674280466
+    second: FlytrapAnimation_7
+  - first:
+      213: -7455621649306950973
+    second: FlytrapAnimation_8
+  - first:
+      213: -6996720246410230643
+    second: FlytrapAnimation_9
+  - first:
+      213: 6111353484971641095
+    second: FlytrapAnimation_10
+  - first:
+      213: 4657480963354585666
+    second: FlytrapAnimation_11
+  - first:
+      213: 7165922148377747425
+    second: FlytrapAnimation_12
+  - first:
+      213: -6610205891749055664
+    second: FlytrapAnimation_13
+  - first:
+      213: -2558178557728533537
+    second: FlytrapAnimation_14
+  - first:
+      213: -5217199844406833273
+    second: FlytrapAnimation_15
+  - first:
+      213: -2663870848898550836
+    second: FlytrapAnimation_16
+  - first:
+      213: -1140156943752731281
+    second: FlytrapAnimation_17
+  - first:
+      213: -7083640858842056296
+    second: FlytrapAnimation_18
+  - first:
+      213: 8420017693717879781
+    second: FlytrapAnimation_19
+  - first:
+      213: -2356357487867725169
+    second: FlytrapAnimation_20
+  - first:
+      213: 1638216373995165240
+    second: FlytrapAnimation_21
+  - first:
+      213: -2986080814588351588
+    second: FlytrapAnimation_22
+  - first:
+      213: -5385501948299597064
+    second: FlytrapAnimation_23
+  - first:
+      213: -8986945619117210898
+    second: FlytrapAnimation_24
+  - first:
+      213: -638854403603686289
+    second: FlytrapAnimation_25
+  - first:
+      213: -2561271855658395548
+    second: FlytrapAnimation_26
+  - first:
+      213: -7999242952932375159
+    second: FlytrapAnimation_27
+  - first:
+      213: 556385483853067995
+    second: FlytrapAnimation_28
+  - first:
+      213: -6208444668991818417
+    second: FlytrapAnimation_29
+  - first:
+      213: -3859090793567792124
+    second: FlytrapAnimation_30
+  - first:
+      213: -8522946210995477789
+    second: FlytrapAnimation_31
+  - first:
+      213: 4107057512461661738
+    second: FlytrapAnimation_32
+  - first:
+      213: 5840642000509875953
+    second: FlytrapAnimation_33
+  - first:
+      213: -4683371575101192560
+    second: FlytrapAnimation_34
+  - first:
+      213: -7439797361829658889
+    second: FlytrapAnimation_35
+  - first:
+      213: 6286891884791913616
+    second: FlytrapAnimation_36
+  - first:
+      213: -2117486809512445012
+    second: FlytrapAnimation_37
+  - first:
+      213: -3136532384719629371
+    second: FlytrapAnimation_38
+  - first:
+      213: -4460571600488219955
+    second: FlytrapAnimation_39
+  - first:
+      213: -1186873938126604383
+    second: FlytrapAnimation_40
+  - first:
+      213: -5823215711530495255
+    second: FlytrapAnimation_41
+  - first:
+      213: 5682014843371371707
+    second: FlytrapAnimation_42
+  - first:
+      213: 525533364141776508
+    second: FlytrapAnimation_43
+  - first:
+      213: 7715439553404312205
+    second: FlytrapAnimation_44
+  - first:
+      213: -2477573250842293832
+    second: FlytrapAnimation_45
+  - first:
+      213: 8477610937570335818
+    second: FlytrapAnimation_46
+  - first:
+      213: -4063903409705259595
+    second: FlytrapAnimation_47
+  - first:
+      213: 2853232580903670695
+    second: FlytrapAnimation_48
+  - first:
+      213: -1575532870633456445
+    second: FlytrapAnimation_49
+  - first:
+      213: 8311893810933279692
+    second: FlytrapAnimation_50
+  - first:
+      213: 8412764525810592957
+    second: FlytrapAnimation_51
+  - first:
+      213: -10045519761525866
+    second: FlytrapAnimation_52
+  - first:
+      213: 1209325890393481413
+    second: FlytrapAnimation_53
+  - first:
+      213: 7588009644002787514
+    second: FlytrapAnimation_54
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FlytrapAnimation_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2720
+        width: 125
+        height: 80
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c56f8e06075222b70800000000000000
+      internalID: 8872695380465743452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlytrapAnimation_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2640
+        width: 125
+        height: 80
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13460860d32e67a40800000000000000
+      internalID: 5365724757788484657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlytrapAnimation_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2560
+        width: 125
+        height: 80
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b550ae8b901378160800000000000000
+      internalID: 7027639661361759579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlytrapAnimation_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2480
+        width: 125
+        height: 80
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77f7dca4f1c353c60800000000000000
+      internalID: 7797204434958516087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlytrapAnimation_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2400
+        width: 125
+        height: 80
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43c1b1d6ea3f44730800000000000000
+      internalID: 3982575900982713396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlytrapAnimation_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2320
+        width: 125
+        height: 80
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d9143b90a284dbc0800000000000000
+      internalID: -3759236162637260329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlytrapAnimation_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2240
+        width: 125
+        height: 80
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7719011856d8bef0800000000000000
+      internalID: -92088118629820550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlytrapAnimation_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2160
+        width: 125
+        height: 80
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2168528c9a9f02f70800000000000000
+      internalID: 9160596149674280466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlytrapAnimation_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2080
+        width: 125
+        height: 80
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c2e85d8c9f488890800000000000000
+      internalID: -7455621649306950973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlytrapAnimation_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2000
+        width: 125
+        height: 80
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d844fef8108a6ee90800000000000000
+      internalID: -6996720246410230643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlytrapAnimation_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1920
+        width: 125
+        height: 80
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afa22f8277ea447abafc705b2bd4b76f
+      internalID: 1208764816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlytrapAnimation_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1840
+        width: 125
+        height: 80
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16ba79faddcad421da9d6eefa3580c1f
+      internalID: 1576212739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlytrapAnimation_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1760
+        width: 125
+        height: 80
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b132e1213c4684480adc621cfa4d7204
+      internalID: -1134075149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlytrapAnimation_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1680
+        width: 125
+        height: 80
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1a49f2060b764b359b8acc356bec6da
+      internalID: 620355438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlytrapAnimation_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1600
+        width: 125
+        height: 80
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 828feae429d3f4d779df25356a61788b
+      internalID: -1268802137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlytrapAnimation_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1520
+        width: 125
+        height: 80
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61b12e76fde9a42049c01d33a15b5597
+      internalID: 689237919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlytrapAnimation_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1440
+        width: 125
+        height: 80
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d555ba7d786348cfa7af163a63a5668
+      internalID: 839917545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlytrapAnimation_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1360
+        width: 125
+        height: 80
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75bd6bdf6d2cd43eb8ed222e9eb6b7c3
+      internalID: 37117187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlytrapAnimation_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1280
+        width: 125
+        height: 80
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 017203f684f4f476890d854d7ba7c66f
+      internalID: -1516653033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlytrapAnimation_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1200
+        width: 125
+        height: 80
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0359c3498151d42b6a01e48712952367
+      internalID: -1705142985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlytrapAnimation_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1120
+        width: 125
+        height: 80
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78828ba3f60ae4c2095d352e512b77fe
+      internalID: -790216015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlytrapAnimation_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1040
+        width: 125
+        height: 80
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88159d4bc162e4afe85b7795b5309da8
+      internalID: 456966073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlytrapAnimation_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 125
+        height: 80
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00f757a870dda48489399010370fc3b5
+      internalID: -273887596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlytrapAnimation_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 880
+        width: 125
+        height: 80
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 095ffd212fdcd421cac831e8f4897053
+      internalID: 1475909841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlytrapAnimation_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 800
+        width: 125
+        height: 80
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7ffda3738e69411093418af2d1359f3
+      internalID: -206538459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlytrapAnimation_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 720
+        width: 125
+        height: 80
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 791e70e109d8843c7b7aaf415696dc72
+      internalID: -1579148595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlytrapAnimation_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 125
+        height: 80
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fbdfae7619ee4e038ea9e5ec9850326
+      internalID: 1227289471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlytrapAnimation_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 560
+        width: 125
+        height: 80
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36b8dee180c6e4de6badfb78d2fb6dc4
+      internalID: -1745552548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlytrapAnimation_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 125
+        height: 80
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32bb52b0e6c91452d96d01faa6fc85c7
+      internalID: -1096718078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlytrapAnimation_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 125
+        height: 80
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f4aa9e4c754f490588819bdbaa37892
+      internalID: -154336456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlytrapAnimation_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 125
+        height: 80
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b68d3536396c44711bfd967a1450aebf
+      internalID: -790786792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlytrapAnimation_31
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 125
+        height: 80
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df4788d2a2cb344038487432ac3585f2
+      internalID: -437123826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlytrapAnimation_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 125
+        height: 80
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5df75ff0cd5e64aaebf91f560737ca05
+      internalID: -1048772645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlytrapAnimation_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 125
+        height: 80
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe8ab9c4c03524db39afb9699672c6d4
+      internalID: -914121383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlytrapAnimation_34
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 125
+        height: 80
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d0de1034e4ed49b59a15ae267767a8e
+      internalID: -128073850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: f3e517d98455b4e6eb652cc6d263b321
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":35.0},"gridSpriteSize":{"x":125.0,"y":80.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":1.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":1,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      FlytrapAnimation_0: 8872695380465743452
+      FlytrapAnimation_1: 5365724757788484657
+      FlytrapAnimation_10: 1208764816
+      FlytrapAnimation_11: 1576212739
+      FlytrapAnimation_12: -1134075149
+      FlytrapAnimation_13: 620355438
+      FlytrapAnimation_14: -1268802137
+      FlytrapAnimation_15: 689237919
+      FlytrapAnimation_16: 839917545
+      FlytrapAnimation_17: 37117187
+      FlytrapAnimation_18: -1516653033
+      FlytrapAnimation_19: -1705142985
+      FlytrapAnimation_2: 7027639661361759579
+      FlytrapAnimation_20: -790216015
+      FlytrapAnimation_21: 456966073
+      FlytrapAnimation_22: -273887596
+      FlytrapAnimation_23: 1475909841
+      FlytrapAnimation_24: -206538459
+      FlytrapAnimation_25: -1579148595
+      FlytrapAnimation_26: 1227289471
+      FlytrapAnimation_27: -1745552548
+      FlytrapAnimation_28: -1096718078
+      FlytrapAnimation_29: -154336456
+      FlytrapAnimation_3: 7797204434958516087
+      FlytrapAnimation_30: -790786792
+      FlytrapAnimation_31: -437123826
+      FlytrapAnimation_32: -1048772645
+      FlytrapAnimation_33: -914121383
+      FlytrapAnimation_34: -128073850
+      FlytrapAnimation_4: 3982575900982713396
+      FlytrapAnimation_5: -3759236162637260329
+      FlytrapAnimation_6: -92088118629820550
+      FlytrapAnimation_7: 9160596149674280466
+      FlytrapAnimation_8: -7455621649306950973
+      FlytrapAnimation_9: -6996720246410230643
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
